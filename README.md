@@ -5,6 +5,8 @@ composer create-project laravel/laravel Myproject
 
 ## Updated env file with mysql credentials
 
+use **php artisan serve** to run the application
+
 ## Created migration file for user,designation and department with data
 php artisan make:migration create_user_table
 
@@ -22,3 +24,7 @@ php artisan make:controller EmployeeController
 ## On Emp_Details.blade.php created UI for listing employess with html css and bootstarp and jquery
 
  Executed **php artisan:optimize** to clear all cache
+
+ ## To run my project.
+
+ use  **http://127.0.0.1:8000/api/employees**
